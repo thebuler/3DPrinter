@@ -1,2 +1,6 @@
 # Set a private password for the report administrator.
 REPORT_ADMIN_PASSWORD=
+
+# Server-only Supabase settings. Never use a VITE_ prefix for the service key.
+SUPABASE_URL=
+SUPABASE_SERVICE_ROLE_KEY=
