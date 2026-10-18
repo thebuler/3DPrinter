@@ -1,0 +1,115 @@
+- generic [ref=e2]:
+  - complementary "주요 메뉴" [ref=e3]:
+    - link "와우고등학교 홈" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "와우고등학교 교표" [ref=e6]
+      - generic [ref=e7]:
+        - strong [ref=e8]: 와우고등학교
+        - generic [ref=e9]: 3D 프린팅 안내
+    - navigation [ref=e10]:
+      - link "01 홈 대시보드" [ref=e11] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e12]: "01"
+        - text: 홈 대시보드
+      - link "02 처음 사용하기" [ref=e13] [cursor=pointer]:
+        - /url: "#guide"
+        - generic [ref=e14]: "02"
+        - text: 처음 사용하기
+      - link "03 문제 해결" [ref=e15] [cursor=pointer]:
+        - /url: "#troubleshoot"
+        - generic [ref=e16]: "03"
+        - text: 문제 해결
+      - link "04 고장 신고 0" [ref=e17] [cursor=pointer]:
+        - /url: "#reports"
+        - generic [ref=e18]: "04"
+        - text: 고장 신고
+        - generic [ref=e19]: "0"
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: 메이커스페이스
+        - generic [ref=e24]: /
+        - strong [ref=e25]: 전체 보기
+      - generic [ref=e26]:
+        - generic [ref=e27]: 2026년 10월 18일
+        - button "학생 계정" [ref=e28]: S
+    - region "만들기에 집중하세요. 관리는 함께할게요." [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: 안전한 3D 프린터 사용을 위한 안내
+          - heading "만들기에 집중하세요. 관리는 함께할게요." [level=1] [ref=e34]:
+            - text: 만들기에 집중하세요.
+            - text: 관리는 함께할게요.
+          - paragraph [ref=e35]: 처음이어도 괜찮아요. 아래에서 프린터를 고르고, 필요한 안내를 찾아보세요.
+        - generic [ref=e47]:
+          - text: 만들고
+          - text: 해결해요
+      - generic [ref=e49]:
+        - generic [ref=e50]: 사용할 프린터 선택
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - combobox "사용 중인 프린터 선택" [ref=e54] [cursor=pointer]:
+              - option "Creality K1C" [selected]
+              - option "Creality K1 MAX"
+              - option "Creality K2 Pro Combo"
+              - option "Creality K2 PLUS"
+            - generic: ⌄
+          - generic [ref=e55]: 가이드 준비됨
+      - generic [ref=e58]:
+        - generic [ref=e59]: 빠른 메뉴
+        - heading "무엇을 도와드릴까요?" [level=2] [ref=e61]
+      - generic [ref=e62]:
+        - link "01 / 사용 안내 ↗ 처음 사용하기 출력 준비부터 마무리까지 안전하게 따라가요. 사용 순서 보기 →" [ref=e63] [cursor=pointer]:
+          - /url: "#guide"
+          - generic [ref=e64]:
+            - generic [ref=e65]: 01 / 사용 안내
+            - generic [ref=e66]: ↗
+          - heading "처음 사용하기" [level=3] [ref=e73]
+          - paragraph [ref=e74]:
+            - text: 출력 준비부터 마무리까지
+            - text: 안전하게 따라가요.
+          - generic [ref=e75]: 사용 순서 보기 →
+        - link "02 / 문제 해결 ↗ 문제 해결 증상을 고르면 안전한 점검 순서를 알려드려요. 증상 찾아보기 →" [ref=e76] [cursor=pointer]:
+          - /url: "#troubleshoot"
+          - generic [ref=e77]:
+            - generic [ref=e78]: 02 / 문제 해결
+            - generic [ref=e79]: ↗
+          - generic [ref=e84]: "?"
+          - heading "문제 해결" [level=3] [ref=e85]
+          - paragraph [ref=e86]:
+            - text: 증상을 고르면
+            - text: 안전한 점검 순서를 알려드려요.
+          - generic [ref=e87]: 증상 찾아보기 →
+        - link "03 / 고장 신고 ↗ 고장 신고 해결되지 않으면 알려주세요. 담당자에게 상황을 남겨요. 신고 작성하기 →" [ref=e88] [cursor=pointer]:
+          - /url: "#reports"
+          - generic [ref=e89]:
+            - generic [ref=e90]: 03 / 고장 신고
+            - generic [ref=e91]: ↗
+          - generic [ref=e97]: +
+          - heading "고장 신고" [level=3] [ref=e98]
+          - paragraph [ref=e99]:
+            - text: 해결되지 않으면 알려주세요.
+            - text: 담당자에게 상황을 남겨요.
+          - generic [ref=e100]: 신고 작성하기 →
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e103]: i
+          - generic [ref=e104]:
+            - strong [ref=e105]: 처음 이용하는 학생이라면
+            - paragraph [ref=e106]: 프린터를 만지기 전, 사용 순서와 안전 수칙을 먼저 확인해 주세요.
+          - link "사용 순서 보기" [ref=e107] [cursor=pointer]:
+            - /url: "#guide"
+            - text: →
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]: 최근 신고
+              - heading "최근 신고" [level=3] [ref=e112]
+            - link "전체 보기 →" [ref=e113] [cursor=pointer]:
+              - /url: "#reports"
+          - generic [ref=e115]: 아직 등록된 신고가 없어요.
+      - generic [ref=e116]:
+        - generic [ref=e117]: 와우고등학교 / 3D 프린팅 안내
+        - generic [ref=e118]: 잘 모르겠다면 무리하지 말고 담당 선생님을 불러주세요.
+    - text: +
+  - status

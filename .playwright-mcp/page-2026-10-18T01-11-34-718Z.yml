@@ -1,0 +1,98 @@
+- generic [ref=e2]:
+  - complementary "주요 메뉴" [ref=e3]:
+    - link "프린트 케어 홈" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img [ref=e6]
+      - strong [ref=e10]: printcare
+    - navigation [ref=e11]:
+      - link "홈 대시보드" [ref=e12] [cursor=pointer]:
+        - /url: "#home"
+      - link "처음 사용하기" [ref=e13] [cursor=pointer]:
+        - /url: "#guide"
+      - link "문제 해결" [ref=e14] [cursor=pointer]:
+        - /url: "#troubleshoot"
+      - link "고장 신고 0" [ref=e15] [cursor=pointer]:
+        - /url: "#reports"
+        - text: 고장 신고
+        - generic [ref=e16]: "0"
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: MAKERSPACE
+        - generic [ref=e21]: /
+        - strong [ref=e22]: USER GUIDE
+      - generic [ref=e23]:
+        - generic [ref=e24]: 2026년 10월 18일
+        - button "학생 계정" [ref=e25]: S
+    - region "처음 사용하기" [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - text: START HERE /
+            - generic [ref=e31]: Creality K2 Plus
+          - heading "처음 사용하기" [level=1] [ref=e32]
+          - paragraph [ref=e33]: 출력 전 확인부터 마무리까지, 한 단계씩 진행해 보세요.
+        - generic [ref=e34]: "01"
+      - generic [ref=e35]: MODEL NOTE 네 기종 모두 외부 스풀을 사용해요. 필라멘트 교체 메뉴는 모델마다 다를 수 있으니 화면 안내를 따르고, 모르는 단계는 담당자에게 확인해 주세요.
+      - generic [ref=e36]:
+        - generic [ref=e37]: "!"
+        - paragraph [ref=e38]:
+          - strong [ref=e39]: 안전 약속
+          - text: 프린터가 작동 중일 때 노즐과 베드는 매우 뜨거울 수 있어요. 출력 중인 부품이나 내부를 손으로 만지지 마세요.
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - article [ref=e42]:
+            - generic [ref=e43]: "01"
+            - generic [ref=e44]:
+              - heading "Creality Print에서 기종 선택" [level=3] [ref=e45]
+              - paragraph [ref=e46]: 담당 선생님께 사용 허가를 받은 뒤, Creality Print에서 실제 프린터와 같은 K2 Plus 프로파일을 선택하세요.
+              - paragraph [ref=e47]: TIP / 비슷한 이름의 다른 기종을 고르지 마세요. 정확한 프로파일이 없으면 슬라이싱을 멈추고 담당자에게 물어보세요.
+          - article [ref=e48]:
+            - generic [ref=e49]: "02"
+            - generic [ref=e50]:
+              - heading "모델과 재료 준비" [level=3] [ref=e51]
+              - paragraph [ref=e52]: 승인된 3D 모델 파일을 열고, 학교에서 허용한 필라멘트를 선택하세요. 네 기종 모두 외부 스풀을 사용하므로 스풀이 걸리지 않고 풀리는지도 확인하세요.
+              - paragraph [ref=e53]: TIP / 재료를 억지로 당기거나 밀지 말고, 뜨거운 노즐이나 움직이는 부품은 만지지 마세요.
+          - article [ref=e54]:
+            - generic [ref=e55]: "03"
+            - generic [ref=e56]:
+              - heading "기본 설정으로 슬라이싱" [level=3] [ref=e57]
+              - paragraph [ref=e58]: Creality Print의 기본 설정을 사용해 슬라이싱한 뒤 미리보기에서 모델이 베드 안에 놓였는지, 예상 시간과 재료량이 적절한지 확인하세요.
+              - paragraph [ref=e59]: TIP / 고급 설정을 임의로 바꾸지 마세요. 모델이 잘리거나 베드 밖에 있거나 예상 값이 이상하면 담당자에게 확인하세요.
+          - article [ref=e60]:
+            - generic [ref=e61]: "04"
+            - generic [ref=e62]:
+              - heading "USB로 옮기고 파일 확인" [level=3] [ref=e63]
+              - paragraph [ref=e64]: 슬라이싱된 출력 파일을 학교에서 지정한 USB에 저장하고 안전하게 분리하세요. 프린터에서 파일을 고를 때 화면의 기종과 파일 이름이 맞는지 확인하세요.
+              - paragraph [ref=e65]: TIP / 파일 종류나 메뉴가 안내와 다르면 임의로 다른 파일을 시작하지 말고 담당자에게 물어보세요.
+          - article [ref=e66]:
+            - generic [ref=e67]: "05"
+            - generic [ref=e68]:
+              - heading "출력 시작과 첫 층 확인" [level=3] [ref=e69]
+              - paragraph [ref=e70]: 출력 시작 후 첫 층이 고르게 놓이는지 살펴보세요. 이상한 소리, 냄새, 연기, 오류 메시지가 있으면 바로 담당자를 부르세요.
+              - paragraph [ref=e71]: TIP / 작동 중인 프린터를 혼자 두지 말고, 움직이는 부품과 뜨거운 부분에 손대지 마세요.
+          - article [ref=e72]:
+            - generic [ref=e73]: "06"
+            - generic [ref=e74]:
+              - heading "식힌 뒤 결과물 분리" [level=3] [ref=e75]
+              - paragraph [ref=e76]: 출력이 끝나면 베드가 완전히 식은 것을 확인하세요. 학교에서 허용한 분리 도구를 사용해 결과물을 조심히 분리하고 작업 공간을 정리하세요.
+              - paragraph [ref=e77]: TIP / 뜨거운 상태에서 분리하지 말고, 도구를 몸 쪽으로 강하게 밀지 마세요. 잘 떨어지지 않으면 담당자에게 요청하세요.
+        - complementary [ref=e78]:
+          - generic [ref=e79]: BEFORE YOU PRINT
+          - heading "출력 전 체크리스트" [level=3] [ref=e80]:
+            - text: 출력 전
+            - text: 체크리스트
+          - generic [ref=e81] [cursor=pointer]:
+            - checkbox "담당 선생님께 사용 허가를 받았어요" [ref=e82]
+            - text: 담당 선생님께 사용 허가를 받았어요
+          - generic [ref=e83] [cursor=pointer]:
+            - checkbox "출력 공간에 방해물이 없어요" [ref=e84]
+            - text: 출력 공간에 방해물이 없어요
+          - generic [ref=e85] [cursor=pointer]:
+            - checkbox "파일과 프린터 모델을 확인했어요" [ref=e86]
+            - text: 파일과 프린터 모델을 확인했어요
+          - paragraph [ref=e88]: 재료나 파일이 확실하지 않으면 출력 전에 담당자에게 확인하세요.
+      - generic [ref=e89]:
+        - generic [ref=e90]: PRINTCARE / MAKERSPACE
+        - generic [ref=e91]: 모델별 화면과 메뉴 이름은 다를 수 있어요.
+  - status

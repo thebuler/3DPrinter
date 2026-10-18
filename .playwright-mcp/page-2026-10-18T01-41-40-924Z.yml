@@ -1,0 +1,162 @@
+- generic [ref=e2]:
+  - complementary "주요 메뉴" [ref=e3]:
+    - link "와우고등학교 홈" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "와우고등학교 교표" [ref=e6]
+      - generic [ref=e7]:
+        - strong [ref=e8]: 와우고등학교
+        - generic [ref=e9]: 3D 프린팅 안내
+    - navigation [ref=e10]:
+      - link "01 홈 대시보드" [ref=e11] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e12]: "01"
+        - text: 홈 대시보드
+      - link "02 처음 사용하기" [ref=e13] [cursor=pointer]:
+        - /url: "#guide"
+        - generic [ref=e14]: "02"
+        - text: 처음 사용하기
+      - link "03 문제 해결" [ref=e15] [cursor=pointer]:
+        - /url: "#troubleshoot"
+        - generic [ref=e16]: "03"
+        - text: 문제 해결
+      - link "04 고장 신고 0" [ref=e17] [cursor=pointer]:
+        - /url: "#reports"
+        - generic [ref=e18]: "04"
+        - text: 고장 신고
+        - generic [ref=e19]: "0"
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: 메이커스페이스
+        - generic [ref=e24]: /
+        - strong [ref=e25]: 사용 안내
+      - generic [ref=e26]:
+        - generic [ref=e27]: 2026년 10월 18일
+        - button "학생 계정" [ref=e28]: S
+    - region "처음 사용하기" [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 사용 안내 /
+            - generic [ref=e34]: Creality K1C
+          - heading "처음 사용하기" [level=1] [ref=e35]
+          - paragraph [ref=e36]: 출력 전 확인부터 마무리까지, 한 단계씩 진행해 보세요.
+        - generic [ref=e37]: "01"
+      - generic [ref=e38]: 모델 안내 Creality Print 7.3.0 한국어 화면 기준이에요. 네 기종 모두 외부 스풀을 사용하며, 프린터에서 보이는 모델과 같은 프로파일을 선택하세요. 메뉴가 다르면 담당자에게 확인해 주세요.
+      - generic [ref=e39]:
+        - generic [ref=e40]: "!"
+        - paragraph [ref=e41]:
+          - strong [ref=e42]: 안전 약속
+          - text: 프린터가 작동 중일 때
+          - strong [ref=e43]: 노즐과 베드
+          - text: 는 매우 뜨거울 수 있어요. 출력 중인 부품이나 내부를
+          - strong [ref=e44]: 손으로 만지지 마세요
+          - text: .
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - article [ref=e47]:
+            - generic [ref=e48]: "01"
+            - generic [ref=e49]:
+              - heading "Creality Print에서 기종 선택" [level=3] [ref=e50]
+              - paragraph [ref=e51]:
+                - strong [ref=e52]: 담당 선생님
+                - text: 께
+                - strong [ref=e53]: 사용 허가
+                - text: 를 받은 뒤,
+                - strong [ref=e54]: Creality Print
+                - text: 에서 실제 프린터와
+                - strong [ref=e55]: 같은 K1C 프로파일
+                - text: 을 선택하세요.
+              - paragraph [ref=e56]: 팁 / 비슷한 이름의 다른 기종을 고르지 마세요. 정확한 프로파일이 없으면 슬라이싱을 멈추고 담당자에게 물어보세요.
+          - article [ref=e57]:
+            - generic [ref=e58]: "02"
+            - generic [ref=e59]:
+              - heading "모델과 재료 준비" [level=3] [ref=e60]
+              - paragraph [ref=e61]:
+                - strong [ref=e62]: 승인된 3D 모델 파일
+                - text: 을 열고, 학교에서
+                - strong [ref=e63]: 허용한 필라멘트
+                - text: 를 선택하세요. 네 기종 모두 외부 스풀을 사용하므로 스풀이 걸리지 않고 풀리는지도 확인하세요.
+              - paragraph [ref=e64]:
+                - text: 팁 / 재료를 억지로 당기거나 밀지 말고,
+                - strong [ref=e65]: 뜨거운 노즐
+                - text: 이나
+                - strong [ref=e66]: 움직이는 부품
+                - text: 은 만지지 마세요.
+          - article [ref=e67]:
+            - generic [ref=e68]: "03"
+            - generic [ref=e69]:
+              - heading "기본 설정으로 슬라이싱" [level=3] [ref=e70]
+              - paragraph [ref=e71]:
+                - strong [ref=e72]: Creality Print
+                - text: 의
+                - strong [ref=e73]: 기본 설정
+                - text: 을 사용해 슬라이싱한 뒤 미리보기에서 모델이 베드 안에 놓였는지, 예상 시간과 재료량이 적절한지 확인하세요.
+              - paragraph [ref=e74]:
+                - text: 팁 /
+                - strong [ref=e75]: 고급 설정
+                - text: 을 임의로 바꾸지 마세요. 모델이 잘리거나 베드 밖에 있거나 예상 값이 이상하면 담당자에게 확인하세요.
+          - article [ref=e76]:
+            - generic [ref=e77]: "04"
+            - generic [ref=e78]:
+              - heading "USB로 옮기고 파일 확인" [level=3] [ref=e79]
+              - paragraph [ref=e80]:
+                - text: 슬라이싱된 출력 파일을 학교에서 지정한
+                - strong [ref=e81]: USB
+                - text: 에 저장하고 안전하게 분리하세요. 프린터에서 파일을 고를 때 화면의 기종과
+                - strong [ref=e82]: 파일 이름
+                - text: 이 맞는지 확인하세요.
+              - paragraph [ref=e83]: 팁 / 파일 종류나 메뉴가 안내와 다르면 임의로 다른 파일을 시작하지 말고 담당자에게 물어보세요.
+          - article [ref=e84]:
+            - generic [ref=e85]: "05"
+            - generic [ref=e86]:
+              - heading "출력 시작과 첫 층 확인" [level=3] [ref=e87]
+              - paragraph [ref=e88]:
+                - text: 출력 시작 후
+                - strong [ref=e89]: 첫 층
+                - text: 이 고르게 놓이는지 살펴보세요. 이상한 소리,
+                - strong [ref=e90]: 냄새
+                - text: ","
+                - strong [ref=e91]: 연기
+                - text: ","
+                - strong [ref=e92]: 오류 메시지
+                - text: 가 있으면 바로 담당자를 부르세요.
+              - paragraph [ref=e93]:
+                - text: 팁 / 작동 중인 프린터를 혼자 두지 말고,
+                - strong [ref=e94]: 움직이는 부품
+                - text: 과 뜨거운 부분에 손대지 마세요.
+          - article [ref=e95]:
+            - generic [ref=e96]: "06"
+            - generic [ref=e97]:
+              - heading "식힌 뒤 결과물 분리" [level=3] [ref=e98]
+              - paragraph [ref=e99]:
+                - text: 출력이 끝나면
+                - strong [ref=e100]: 베드가 완전히 식은
+                - text: 것을 확인하세요. 학교에서 허용한
+                - strong [ref=e101]: 분리 도구
+                - text: 를 사용해 결과물을 조심히 분리하고 작업 공간을 정리하세요.
+              - paragraph [ref=e102]: 팁 / 뜨거운 상태에서 분리하지 말고, 도구를 몸 쪽으로 강하게 밀지 마세요. 잘 떨어지지 않으면 담당자에게 요청하세요.
+        - complementary [ref=e103]:
+          - generic [ref=e104]: 출력 전 확인
+          - heading "출력 전 체크리스트" [level=3] [ref=e105]:
+            - text: 출력 전
+            - text: 체크리스트
+          - generic [ref=e106] [cursor=pointer]:
+            - checkbox "담당 선생님께 사용 허가를 받았어요" [ref=e107]
+            - generic [ref=e108]:
+              - text: 담당 선생님께
+              - strong [ref=e109]: 사용 허가
+              - text: 를 받았어요
+          - generic [ref=e110] [cursor=pointer]:
+            - checkbox "출력 공간에 방해물이 없어요" [ref=e111]
+            - generic [ref=e112]: 출력 공간에 방해물이 없어요
+          - generic [ref=e113] [cursor=pointer]:
+            - checkbox "파일과 프린터 모델을 확인했어요" [ref=e114]
+            - generic [ref=e115]:
+              - strong [ref=e116]: 파일과 프린터 모델
+              - text: 을 확인했어요
+          - paragraph [ref=e118]: 재료나 파일이 확실하지 않으면 출력 전에 담당자에게 확인하세요.
+      - generic [ref=e119]:
+        - generic [ref=e120]: 와우고등학교 / 3D 프린팅 안내
+        - generic [ref=e121]: 모델별 화면과 메뉴 이름은 다를 수 있어요.
+  - status

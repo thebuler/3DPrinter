@@ -1,0 +1,13 @@
+[    8708ms] [INFO] [preview-bridge] v1.1.0 @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1
+[  165529ms] [INFO] [preview-bridge] v1.1.0 @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1
+[  165804ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at https://kca9gut1syq8zhnw.jitda.io/app.js?t=1792289200327:192:41
+[  199690ms] [INFO] [preview-bridge] v1.1.0 @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1
+[  199923ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at https://kca9gut1syq8zhnw.jitda.io/app.js?t=1792289420144:182:41
+[  209202ms] [INFO] [preview-bridge] v1.1.0 @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1
+[  209421ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at https://kca9gut1syq8zhnw.jitda.io/app.js?t=1792289429697:193:41
+[  215895ms] [INFO] [preview-bridge] v1.1.0 @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1
+[  245843ms] [LOG] [vite] server connection lost. Polling for restart... @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1
+[  248093ms] [INFO] [preview-bridge] v1.1.0 @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1

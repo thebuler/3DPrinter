@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.vite/
+dist/
+data/reports.json
+data/reports.json.tmp
+*.zip

@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f5f1" />
+    <title>와우고등학교 | 3D 프린팅 안내</title>
+    <link rel="icon" type="image/png" href="./assets/wow-high-school-emblem.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./readability.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="주요 메뉴">
+        <a class="brand" href="#home" aria-label="와우고등학교 홈">
+          <span class="brand-mark"><img class="school-emblem" src="./assets/wow-high-school-emblem.png" alt="와우고등학교 교표" /></span>
+          <span class="brand-copy"><strong>와우고등학교</strong><small>3D 프린팅 안내</small></span>
+        </a>
+        <div class="side-caption">작업 공간</div>
+        <nav class="nav-list">
+          <a class="nav-link active" href="#home" data-page="home"><span class="nav-icon">01</span> 홈 대시보드</a>
+          <a class="nav-link" href="#guide" data-page="guide"><span class="nav-icon">02</span> 처음 사용하기</a>
+          <a class="nav-link" href="#troubleshoot" data-page="troubleshoot"><span class="nav-icon">03</span> 문제 해결</a>
+          <a class="nav-link" href="#reports" data-page="reports"><span class="nav-icon">04</span> 고장 신고 <span class="nav-count" id="report-count">0</span></a>
+        </nav>
+        <div class="side-bottom">
+          <div class="safety-card">
+            <span class="safety-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 3.5 19h17L12 3Z"/><path d="M12 9v4m0 3h.01"/></svg></span>
+            <strong>안전이 먼저예요</strong>
+            <p>뜨거운 부품을 만지거나 프린터를 분해하지 마세요.</p>
+          </div>
+          <div class="side-meta"><span class="online-dot"></span> 메이커스페이스 지원 <span>v1.0</span></div>
+        </div>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <div class="breadcrumbs"><span>메이커스페이스</span><span class="crumb-slash">/</span><strong id="breadcrumb-current">전체 보기</strong></div>
+          <div class="top-actions">
+            <span class="today-label" id="today-label"></span>
+            <button class="avatar" type="button" aria-label="학생 계정">S</button>
+          </div>
+        </header>
+
+        <section class="page-section active" id="page-home" aria-labelledby="home-title">
+          <div class="welcome-row">
+            <div>
+              <div class="eyebrow"><span class="eyebrow-line"></span> 안전한 3D 프린터 사용을 위한 안내</div>
+              <h1 id="home-title">만들기에 집중하세요.<br /><span>관리는 함께할게요.</span></h1>
+              <p class="welcome-text">처음이어도 괜찮아요. 아래에서 프린터를 고르고, 필요한 안내를 찾아보세요.</p>
+            </div>
+            <div class="hero-stamp" aria-hidden="true"><div class="stamp-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span>만들고<br />해결해요</span></div>
+          </div>
+
+          <div class="printer-panel">
+            <div class="panel-label"><span class="tiny-square"></span> 사용할 프린터 선택</div>
+            <div class="printer-select-row">
+              <div class="select-wrap"><select id="printer-select" aria-label="사용 중인 프린터 선택">
+                <option value="K1C">Creality K1C</option>
+                <option value="K1 Max">Creality K1 MAX</option>
+                <option value="K2 Pro Combo">Creality K2 Pro Combo</option>
+                <option value="K2 Plus">Creality K2 PLUS</option>
+              </select><span class="select-chevron" aria-hidden="true">⌄</span></div>
+              <span class="printer-status"><span class="status-dot"></span> 가이드 준비됨</span>
+              <span class="printer-note">모델명을 확인한 뒤 안내를 시작하세요.</span>
+            </div>
+          </div>
+
+          <div class="section-heading">
+            <div><div class="eyebrow muted"><span class="eyebrow-line"></span> 빠른 메뉴</div><h2>무엇을 도와드릴까요?</h2></div>
+            <span class="section-aside">필요한 항목을 선택해 주세요 <span aria-hidden="true">↘</span></span>
+          </div>
+          <div class="quick-grid">
+            <a class="quick-card guide-card" href="#guide" data-page="guide">
+              <div class="card-top"><span class="card-index">01 / 사용 안내</span><span class="arrow-circle">↗</span></div>
+              <div class="card-illustration guide-illustration" aria-hidden="true"><span class="guide-base"></span><span class="guide-column"></span><span class="guide-arm"></span><span class="guide-nozzle"></span><span class="guide-object"></span></div>
+              <h3>처음 사용하기</h3><p>출력 준비부터 마무리까지<br />안전하게 따라가요.</p>
+              <span class="card-link">사용 순서 보기 <span>→</span></span>
+            </a>
+            <a class="quick-card trouble-card" href="#troubleshoot" data-page="troubleshoot">
+              <div class="card-top"><span class="card-index">02 / 문제 해결</span><span class="arrow-circle">↗</span></div>
+              <div class="card-illustration trouble-illustration" aria-hidden="true"><span class="signal signal-one"></span><span class="signal signal-two"></span><span class="signal signal-three"></span><span class="signal-core">?</span></div>
+              <h3>문제 해결</h3><p>증상을 고르면<br />안전한 점검 순서를 알려드려요.</p>
+              <span class="card-link">증상 찾아보기 <span>→</span></span>
+            </a>
+            <a class="quick-card report-card" href="#reports" data-page="reports">
+              <div class="card-top"><span class="card-index">03 / 고장 신고</span><span class="arrow-circle">↗</span></div>
+              <div class="card-illustration report-illustration" aria-hidden="true"><span class="report-sheet"><i></i><i></i><i></i></span><span class="report-plus">+</span></div>
+              <h3>고장 신고</h3><p>해결되지 않으면 알려주세요.<br />담당자에게 상황을 남겨요.</p>
+              <span class="card-link">신고 작성하기 <span>→</span></span>
+            </a>
+          </div>
+
+          <div class="bottom-grid">
+            <div class="notice-panel"><div class="notice-symbol">i</div><div><strong>처음 이용하는 학생이라면</strong><p>프린터를 만지기 전, 사용 순서와 안전 수칙을 먼저 확인해 주세요.</p></div><a href="#guide" data-page="guide" aria-label="사용 순서 보기">→</a></div>
+            <div class="reports-mini"><div class="mini-heading"><div><span class="eyebrow muted">최근 신고</span><h3>최근 신고</h3></div><a href="#reports" data-page="reports">전체 보기 →</a></div><div id="recent-reports" class="recent-list"><div class="empty-reports">아직 등록된 신고가 없어요.</div></div></div>
+          </div>
+          <footer class="page-footer"><span>와우고등학교 / 3D 프린팅 안내</span><span>잘 모르겠다면 무리하지 말고 담당 선생님을 불러주세요.</span></footer>
+        </section>
+
+        <section class="page-section subpage" id="page-guide" aria-labelledby="guide-title" hidden>
+          <div class="subpage-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> 사용 안내 / <span class="current-printer">Creality K2 Plus</span></div><h1 id="guide-title">처음 사용하기</h1><p>출력 전 확인부터 마무리까지, 한 단계씩 진행해 보세요.</p></div><span class="large-number">01</span></div>
+          <div class="model-note"><span>모델 안내</span> Creality Print 7.3.0 한국어 화면 기준이에요. 네 기종 모두 외부 스풀을 사용하며, 프린터에서 보이는 모델과 같은 프로파일을 선택하세요. 메뉴가 다르면 담당자에게 확인해 주세요.</div>
+          <section class="build-volume-panel" aria-labelledby="build-volume-title">
+            <div class="build-volume-heading"><div><span class="eyebrow muted"><span class="eyebrow-line"></span> 현재 선택 기종</span><h2 id="build-volume-title">최대 출력 크기</h2></div><span class="volume-selection" id="volume-selection">Creality K1C</span></div>
+            <div class="build-volume-grid">
+              <article class="build-volume-card is-current" id="build-volume-card"><p class="volume-measurement"><strong id="volume-size">220 × 220 × 250</strong><span>:</span><span>가로(X) × 세로(Y) × 높이(Z) · 단위 mm</span></p><a id="volume-source" href="https://www.creality.com/products/k1c-carbon-3d-printer" target="_blank" rel="noreferrer">Creality 공식 사양 보기 ↗</a></article>
+            </div>
+          </section>
+          <div class="guide-alert"><span class="alert-icon">!</span><p><strong>안전 약속</strong> 프린터가 작동 중일 때 <strong class="key-term">노즐과 베드</strong>는 매우 뜨거울 수 있어요. 출력 중인 부품이나 내부를 <strong class="key-term">손으로 만지지 마세요</strong>.</p></div>
+          <div class="steps-layout"><div class="steps-list" id="steps-list"></div><aside class="guide-aside"><div class="aside-tag">출력 전 확인</div><h3>출력 전<br />체크리스트</h3><label><input type="checkbox" /><span>담당 선생님께 <strong class="key-term">사용 허가</strong>를 받았어요</span></label><label><input type="checkbox" /><span>출력 공간에 방해물이 없어요</span></label><label><input type="checkbox" /><span><strong class="key-term">파일과 프린터 모델</strong>을 확인했어요</span></label><div class="aside-rule"></div><p>재료나 파일이 확실하지 않으면 출력 전에 담당자에게 확인하세요.</p></aside></div>
+          <footer class="page-footer"><span>와우고등학교 / 3D 프린팅 안내</span><span>모델별 화면과 메뉴 이름은 다를 수 있어요.</span></footer>
+        </section>
+
+        <section class="page-section subpage" id="page-troubleshoot" aria-labelledby="trouble-title" hidden>
+          <div class="subpage-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> 문제 해결 / <span class="current-printer">Creality K2 Plus</span></div><h1 id="trouble-title">어떤 문제가 생겼나요?</h1><p>증상에 맞는 항목을 고르면, 먼저 해볼 수 있는 점검을 안내해요.</p></div><span class="large-number">02</span></div>
+          <div class="model-note"><span>모델 안내</span> 아래 내용은 네 기종에 공통인 안전 점검입니다. 화면 메뉴나 부품 조작 방법은 모델과 학교 설정에 따라 다를 수 있어요.</div>
+          <div class="trouble-guide-grid" aria-label="자주 찾는 사용 안내">
+            <a class="trouble-guide-card" href="#filament" data-page="filament">
+              <div class="trouble-guide-image"><img src="./assets/filament-swap-guide.svg" alt="외부 스풀에서 필라멘트가 프린터로 이어지는 그림" /></div>
+              <div class="trouble-guide-copy"><span class="card-index">01 / 재료 관리</span><span class="trouble-guide-arrow" aria-hidden="true">↗</span><h2>필라멘트 교체 방법</h2><p>외부 스풀과 화면 안내에 따라 안전하게 교체해요.</p></div>
+            </a>
+            <a class="trouble-guide-card" href="#removal" data-page="removal">
+              <div class="trouble-guide-image"><img src="./assets/print-removal-guide.svg" alt="베드가 식은 뒤 지정 도구로 출력물 가장자리를 분리하는 그림" /></div>
+              <div class="trouble-guide-copy"><span class="card-index">02 / 출력 마무리</span><span class="trouble-guide-arrow" aria-hidden="true">↗</span><h2>출력물 분리 방법</h2><p>충분히 식힌 뒤 허용된 도구로 조심히 분리해요.</p></div>
+            </a>
+          </div>
+          <div class="symptoms-heading"><span class="eyebrow muted"><span class="eyebrow-line"></span> 증상별 안내</span><h2>발생한 문제를 선택해 주세요</h2></div>
+          <div class="trouble-layout"><div class="symptom-list" id="symptom-list"></div><div class="solution-panel" id="solution-panel"><div class="solution-empty"><span class="crosshair">⌖</span><h3>증상을 선택해 주세요</h3><p>왼쪽 목록에서 가장 가까운 증상을 선택하면<br />점검 순서가 여기에 표시됩니다.</p></div></div></div>
+          <div class="help-strip"><span class="help-mark">!</span><p><strong>안내대로 해도 해결되지 않나요?</strong> 프린터를 더 조작하지 말고 고장 신고를 남겨주세요.</p><a href="#reports" data-page="reports">고장 신고하기 <span>→</span></a></div>
+          <footer class="page-footer"><span>와우고등학교 / 3D 프린팅 안내</span><span>분해·수리·뜨거운 부품 접촉은 담당자에게 맡겨주세요.</span></footer>
+        </section>
+
+        <section class="page-section subpage" id="page-filament" aria-labelledby="filament-title" hidden>
+          <div class="subpage-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> 문제 해결 / 재료 관리</div><h1 id="filament-title">필라멘트 교체 방법</h1><p><span class="current-printer">Creality K1C</span>의 외부 스풀을 교체하는 안전한 순서예요.</p></div><span class="large-number">01</span></div>
+          <div class="guide-alert"><span class="alert-icon">!</span><p><strong>교체 전 확인</strong> 출력 중에는 필라멘트를 빼거나 프린터를 분해하지 마세요. 출력이 진행 중이거나 상태가 이상하면 담당 선생님에게 먼저 알려주세요.</p></div>
+          <div class="procedure-hero">
+            <div class="procedure-copy"><span class="aside-tag">외부 스풀 / 화면 안내 우선</span><h2>기종이 맞는지 확인하고<br />천천히 교체해요.</h2><p>네 기종 모두 외부 스풀을 사용하지만, 화면 메뉴와 필라멘트 경로는 다를 수 있어요. 프린터 화면에 표시된 안내를 우선으로 따라주세요.</p><div class="procedure-tags"><span>모델 선택 확인</span><span>허용된 재료</span><span>힘주지 않기</span></div></div>
+            <figure class="procedure-figure"><img src="./assets/filament-swap-guide.svg" alt="외부 스풀에서 프린터로 필라멘트가 공급되는 흐름" /><figcaption>외부 스풀의 필라멘트가 프린터로 이어지는 모습</figcaption></figure>
+          </div>
+          <div class="procedure-steps">
+            <article class="procedure-step"><span>01</span><div><h3>출력 상태와 재료 확인</h3><p>출력이 끝난 상태인지 확인하고, 새 필라멘트가 학교에서 허용한 재료인지 살펴보세요. 다른 재료로 바꾸기 전에는 담당자에게 확인하세요.</p></div></article>
+            <article class="procedure-step"><span>02</span><div><h3>화면 안내로 기존 필라멘트 빼기</h3><p>선택한 <strong class="key-term current-printer">Creality K1C</strong>의 화면에서 필라멘트 교체 또는 배출 안내를 찾으세요. 화면에서 빼도 된다고 안내한 뒤에만 필라멘트를 분리하세요.</p><p class="procedure-tip">노즐은 뜨거울 수 있어요. 노즐이나 움직이는 부품을 만지지 마세요.</p></div></article>
+            <article class="procedure-step"><span>03</span><div><h3>새 외부 스풀 걸기</h3><p>새 스풀을 지정된 거치대에 놓고, 필라멘트가 엉키지 않고 부드럽게 풀리는지 눈으로 확인하세요. 설치 방향이 헷갈리면 담당자에게 물어보세요.</p></div></article>
+            <article class="procedure-step"><span>04</span><div><h3>화면 안내에 따라 새 필라멘트 넣기</h3><p>프린터 화면의 넣기 안내에 맞춰 필라멘트를 공급 경로에 넣으세요. 화면에서 안내하기 전에는 밀거나 당기지 말고, 완료 표시가 나오는지 확인하세요.</p></div></article>
+            <article class="procedure-step"><span>05</span><div><h3>오류가 있으면 멈추고 알리기</h3><p>재료가 들어가지 않거나 오류가 나타나면 반복해서 시도하거나 덮개를 열지 마세요. 화면의 문구를 기록해 담당 선생님에게 알려주세요.</p></div></article>
+          </div>
+          <div class="help-strip"><span class="help-mark">!</span><p><strong>메뉴를 찾을 수 없거나 필라멘트가 걸렸나요?</strong> 잡아당기지 말고 담당자에게 도움을 요청하세요.</p><a href="#reports" data-page="reports">고장 신고하기 <span>→</span></a></div>
+          <a class="back-to-troubleshoot" href="#troubleshoot" data-page="troubleshoot">← 문제 해결 목록으로 돌아가기</a>
+          <footer class="page-footer"><span>와우고등학교 / 3D 프린팅 안내</span><span>모델별 메뉴와 장착 방향은 담당자의 안내를 따라주세요.</span></footer>
+        </section>
+
+        <section class="page-section subpage" id="page-removal" aria-labelledby="removal-title" hidden>
+          <div class="subpage-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> 문제 해결 / 출력 마무리</div><h1 id="removal-title">출력물 분리 방법</h1><p>출력이 끝난 뒤 베드가 충분히 식었는지 먼저 확인하세요.</p></div><span class="large-number">02</span></div>
+          <div class="guide-alert"><span class="alert-icon">!</span><p><strong>열에 주의하세요</strong> 출력 직후 노즐과 베드는 뜨거울 수 있어요. 손으로 만져 식었는지 시험하지 말고, 화면과 담당자의 기준에 따라 기다려주세요.</p></div>
+          <div class="procedure-hero removal-hero">
+            <div class="procedure-copy"><span class="aside-tag">출력 완료 / 충분히 식힌 뒤</span><h2>뜨거울 때는 기다리고,<br />도구는 조심히 사용해요.</h2><p>기종에 따라 베드 구조와 분리 방식이 다를 수 있어요. 학교에서 지정한 도구와 프린터별 안내를 따라주세요.</p><div class="procedure-tags"><span>완전히 식히기</span><span>지정 도구 사용</span><span>억지로 떼지 않기</span></div></div>
+            <figure class="procedure-figure"><img src="./assets/print-removal-guide.svg" alt="베드가 식은 뒤 지정 도구로 출력물 가장자리를 분리하는 모습" /><figcaption>베드가 식은 것을 확인한 뒤 가장자리부터 조심히 분리</figcaption></figure>
+          </div>
+          <div class="procedure-steps">
+            <article class="procedure-step"><span>01</span><div><h3>출력이 끝났는지 확인</h3><p>프린터 화면에서 출력 완료를 확인하세요. 화면에 오류가 있거나 출력이 진행 중이면 결과물을 건드리지 말고 담당 선생님에게 알려주세요.</p></div></article>
+            <article class="procedure-step"><span>02</span><div><h3>베드가 완전히 식을 때까지 기다리기</h3><p>프린터 화면의 온도 표시와 학교 기준에 따라 충분히 기다리세요. <strong class="key-term">손으로 만져 온도를 확인하지 마세요.</strong></p></div></article>
+            <article class="procedure-step"><span>03</span><div><h3>지정된 분리 도구 사용</h3><p>학교에서 허용한 도구만 사용하고, 도구가 사람 쪽을 향하지 않도록 조심하세요. 출력물의 가장자리부터 천천히 시도하고 강하게 비틀거나 밀지 마세요.</p></div></article>
+            <article class="procedure-step"><span>04</span><div><h3>잘 떨어지지 않으면 중단</h3><p>출력물이 움직이지 않거나 베드 표면이 함께 들리는 것 같으면 더 힘주지 마세요. 금속 도구로 긁거나 베드를 임의로 떼지 말고 담당자에게 요청하세요.</p></div></article>
+            <article class="procedure-step"><span>05</span><div><h3>핫베드 플레이트 다시 장착</h3><p><strong class="key-term">프린터가 멈추고 베드가 완전히 식은 상태</strong>에서 선택한 기종에 맞는 플레이트를 준비하세요. <strong class="key-term">인쇄면이 위</strong>를 향하도록 놓고, 플레이트의 모서리와 베드의 표시·외곽선을 맞춰 평평하게 내려놓으세요.</p><p class="procedure-tip">플레이트 아래에 이물질이 없는지, 네 모서리가 모두 밀착됐는지 확인하세요. 비뚤어지거나 들뜨면 출력하지 말고 다시 맞추세요. 방향이 헷갈리면 담당자에게 확인하세요.</p></div></article>
+            <article class="procedure-step"><span>06</span><div><h3>작업 공간 정리</h3><p>분리한 결과물과 도구를 정해진 곳에 두고, 베드에 남은 재료는 담당자의 안내에 따라 정리하세요.</p></div></article>
+          </div>
+          <div class="help-strip"><span class="help-mark">!</span><p><strong>분리 중 베드가 움직이거나 손상된 것 같나요?</strong> 작업을 멈추고 담당 선생님에게 바로 알려주세요.</p><a href="#reports" data-page="reports">고장 신고하기 <span>→</span></a></div>
+          <a class="back-to-troubleshoot" href="#troubleshoot" data-page="troubleshoot">← 문제 해결 목록으로 돌아가기</a>
+          <footer class="page-footer"><span>와우고등학교 / 3D 프린팅 안내</span><span>베드와 분리 도구가 뜨거울 수 있으니 주의하세요.</span></footer>
+        </section>
+
+        <section class="page-section subpage" id="page-reports" aria-labelledby="reports-title" hidden>
+          <div class="subpage-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> 지원 / 문제 신고</div><h1 id="reports-title">고장 신고</h1><p>기기 번호와 증상을 남기면 담당자가 확인할 수 있어요.</p></div><span class="large-number">03</span></div>
+          <div class="storage-notice"><span class="storage-icon">i</span><span>신고는 서버에 저장돼요. 이 페이지에 접속할 수 있는 다른 PC에서도 같은 목록을 볼 수 있고, 등록 일시는 자동 기록됩니다.</span></div>
+          <div class="report-layout"><form class="report-form" id="report-form">
+            <div class="form-title"><span>새 신고</span><span class="required-note">* 필수 항목 · 등록 일시 자동 기록</span></div>
+            <label class="field-label" for="report-device-number">기기 번호 <span>*</span></label>
+            <select class="form-control" id="report-device-number" required><option value="">기기 번호를 선택해 주세요</option><option value="1">1번 기기</option><option value="2">2번 기기</option><option value="3">3번 기기</option><option value="4">4번 기기</option><option value="5">5번 기기</option><option value="6">6번 기기</option><option value="7">7번 기기</option><option value="8">8번 기기</option><option value="9">9번 기기</option><option value="10">10번 기기</option></select>
+            <label class="field-label" for="report-symptom">문제 유형 <span>*</span></label>
+            <select class="form-control" id="report-symptom" required><option value="">문제 유형을 선택해 주세요</option><option>출력물이 베드에서 들떠요</option><option>필라멘트가 공급되지 않아요</option><option>노즐에서 재료가 나오지 않아요</option><option>출력이 멈추거나 실패해요</option><option>연결 또는 파일 전송이 안 돼요</option><option>기타 오류 메시지가 발생했어요</option></select>
+            <label class="field-label" for="report-description">상황 설명 <span>*</span></label>
+            <textarea class="form-control description-field" id="report-description" maxlength="500" placeholder="언제부터 어떤 일이 있었는지 적어주세요. 오류 문구가 있다면 그대로 적어주세요." required></textarea>
+            <div class="field-foot"><span>개인정보나 비밀번호는 적지 마세요.</span><span id="char-count">0 / 500</span></div>
+            <label class="field-label" for="report-name">이름 또는 별명 <small>(선택)</small></label>
+            <input class="form-control" id="report-name" maxlength="40" placeholder="담당자가 부를 이름" />
+            <button class="submit-report" type="submit">신고 등록하기 <span>→</span></button>
+            <p class="form-footnote">긴급하거나 안전에 문제가 있으면 신고보다 담당 선생님께 먼저 알려주세요.</p>
+          </form><aside class="report-side"><div class="report-side-art"><span class="art-ring ring-a"></span><span class="art-ring ring-b"></span><div class="art-sheet"><i></i><i></i><i></i><b>!</b></div></div><span class="aside-tag">신고 처리 순서</span><h3>문제는 알려주면<br />함께 해결할 수 있어요.</h3><ol><li><b>01</b><span>기기 번호와 증상을 적어주세요</span></li><li><b>02</b><span>담당자가 내용을 확인해요</span></li><li><b>03</b><span>안내가 있을 때까지 사용을 멈춰요</span></li></ol><p class="privacy-note">신고 내용은 프린터 관리 목적으로만 사용해 주세요.</p></aside></div>
+          <div class="all-reports"><div class="all-reports-head"><div><span class="eyebrow muted">신고 기록</span><h2>신고 목록 <span id="all-report-count">0</span></h2></div></div><div class="report-table-wrap"><div class="report-table-head"><span>기기 번호</span><span>신고 내용</span><span>상태</span><span>등록 일시</span></div><div id="report-list" class="report-list"><div class="empty-reports">아직 신고가 없어요. 문제가 생기면 내용을 남겨주세요.</div></div></div></div>
+          <dialog class="edit-report-dialog" id="edit-report-dialog" aria-labelledby="edit-report-title">
+            <form id="edit-report-form">
+              <div class="edit-dialog-heading"><div><span class="eyebrow muted">관리자 / 신고 수정</span><h2 id="edit-report-title">신고 내용 수정</h2></div><button class="dialog-close" id="close-edit-dialog" type="button" aria-label="닫기">×</button></div>
+              <label class="field-label" for="edit-device-number">기기 번호 <span>*</span></label>
+              <select class="form-control" id="edit-device-number" required><option value="1">1번 기기</option><option value="2">2번 기기</option><option value="3">3번 기기</option><option value="4">4번 기기</option><option value="5">5번 기기</option><option value="6">6번 기기</option><option value="7">7번 기기</option><option value="8">8번 기기</option><option value="9">9번 기기</option><option value="10">10번 기기</option></select>
+              <label class="field-label" for="edit-symptom">문제 유형 <span>*</span></label>
+              <input class="form-control" id="edit-symptom" maxlength="100" required />
+              <label class="field-label" for="edit-description">상황 설명 <span>*</span></label>
+              <textarea class="form-control description-field" id="edit-description" maxlength="500" required></textarea>
+              <label class="field-label" for="edit-name">이름 또는 별명 <small>(선택)</small></label>
+              <input class="form-control" id="edit-name" maxlength="40" />
+              <label class="field-label" for="edit-status">처리 상태 <span>*</span></label>
+              <select class="form-control" id="edit-status" required><option>확인 대기</option><option>확인 중</option><option>해결 완료</option></select>
+              <div class="edit-dialog-actions"><button class="admin-action-button" id="cancel-edit" type="button">취소</button><button class="admin-action-button primary" type="submit">변경 저장</button></div>
+            </form>
+          </dialog>
+          <footer class="page-footer"><span>와우고등학교 / 3D 프린팅 안내</span><span>신고 내용에 개인정보를 적지 마세요.</span></footer>
+          <details class="admin-panel" id="admin-tools">
+            <summary class="admin-summary"><span>관리자 기능</span><small>담당자 전용</small></summary>
+            <div class="admin-panel-content">
+              <div class="admin-panel-heading"><div><p>로그인하면 신고 수정, 처리 상태 변경, 삭제를 할 수 있어요.</p></div><span class="admin-lock" aria-hidden="true">⌑</span></div>
+              <form class="admin-login-form" id="admin-login-form">
+                <label class="field-label" for="admin-password">관리자 비밀번호</label>
+                <div class="admin-login-controls"><input class="form-control" type="password" id="admin-password" autocomplete="current-password" required placeholder="관리자 비밀번호 입력" /><button class="admin-action-button primary" type="submit">관리자 로그인</button></div>
+                <p class="admin-message" id="admin-message" role="status">관리자만 신고 내용을 수정하거나 삭제할 수 있습니다.</p>
+              </form>
+              <div class="admin-session" id="admin-session" hidden><span class="admin-session-label"><span class="admin-session-dot"></span> 관리자 로그인됨</span><button class="admin-action-button" id="admin-logout" type="button">로그아웃</button></div>
+            </div>
+          </details>
+        </section>
+      </main>
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+[   88487ms] [INFO] [preview-bridge] v1.1.0 @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1
+[   88757ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at https://kca9gut1syq8zhnw.jitda.io/app.js?t=1792288835071:147:15
+[  103082ms] [INFO] [preview-bridge] v1.1.0 @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1
+[  132903ms] [INFO] [preview-bridge] v1.1.0 @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1

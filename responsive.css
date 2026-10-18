@@ -1,0 +1,355 @@
+ .brand-mark {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e4e6e0;
+}
+
+.school-emblem {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.step-card .key-term, .guide-alert .key-term, .guide-aside .key-term {
+  color: #b42318;
+  font-weight: 700;
+  background: linear-gradient(transparent 68%, #fbe3e1 68%);
+}
+
+.brand-copy strong { font-size: 19px; }
+.brand-copy small { font-size: 11px; }
+.sidebar .nav-link { font-size: 14px; }
+.nav-icon { font-size: 11px; }
+.side-caption { font-size: 12px; }
+.side-meta { font-size: 10px; }
+.breadcrumbs { font-size: 11px; }
+.today-label { font-size: 10px; }
+.eyebrow { font-size: 11px; }
+.welcome-row h1 { font-size: 40px; }
+.welcome-text { font-size: 14px; }
+.panel-label { font-size: 12px; }
+.select-wrap select { font-size: 15px; }
+.printer-status { font-size: 13px; }
+.printer-note { font-size: 12px; }
+.section-heading h2 { font-size: 21px; }
+.section-aside { font-size: 12px; }
+.card-index { font-size: 10px; }
+.quick-card h3 { font-size: 18px; }
+.quick-card p { font-size: 14px; }
+.card-link { font-size: 12px; }
+.notice-panel strong { font-size: 14px; }
+.notice-panel p { font-size: 12px; }
+.mini-heading h3 { font-size: 15px; }
+.mini-heading > a { font-size: 12px; }
+.subpage-heading h1 { font-size: 36px; }
+.subpage-heading p { font-size: 15px; }
+.step-card h3 { font-size: 16px; }
+.step-card p, .guide-alert p, .solution-intro, .solution-step p { font-size: 14px; }
+.field-label { font-size: 14px; }
+.report-table-head { font-size: 10px; }
+.report-table-head, .report-row { grid-template-columns: 105px minmax(0, 1fr) 130px 175px; }
+.report-device { font-size: 14px; font-weight: 700; }
+.report-row strong { font-size: 15px; }
+.report-row small { font-size: 13px; }
+.report-status { padding: 6px 10px; border-radius: 14px; font-size: 14px; font-weight: 600; white-space: nowrap; }
+.report-status.status-pending { background: #f7efe5; color: #a4754a; }
+.report-status.status-in-progress { background: #fff2c9; color: #806000; }
+.report-status.status-resolved { background: #e4f1dc; color: #3d7043; }
+.report-timestamp { font-size: 14px; line-height: 1.45; }
+.report-status-select { font-size: 13px; font-weight: 600; }
+.report-status-select.status-pending { background: #f7efe5; color: #a4754a; }
+.report-status-select.status-in-progress { background: #fff2c9; color: #806000; }
+.report-status-select.status-resolved { background: #e4f1dc; color: #3d7043; }
+.admin-panel { margin: 12px 0 0; padding: 10px 0 0; border-top: 1px solid #e7eae3; color: #838a7f; }
+.admin-summary { display: inline-flex; min-height: 36px; align-items: center; gap: 9px; color: #80877d; font-size: 12px; cursor: pointer; list-style: none; }
+.admin-summary::-webkit-details-marker { display: none; }
+.admin-summary::before { content: "+"; display: grid; width: 18px; height: 18px; place-items: center; border: 1px solid #dfe4da; border-radius: 50%; color: #78816f; font-size: 13px; }
+.admin-panel[open] .admin-summary::before { content: "−"; }
+.admin-summary small { color: #a0a59d; font-size: 10px; }
+.admin-panel-content { margin-top: 8px; padding: 16px; border: 1px solid #e2e7dc; border-radius: 7px; background: #f8f9f5; }
+.admin-panel-heading, .edit-dialog-heading { display: flex; align-items: start; justify-content: space-between; gap: 12px; }
+.admin-panel-heading h2, .edit-dialog-heading h2 { margin: 6px 0 4px; font-size: 19px; }
+.admin-panel-heading p { margin: 0; color: #737b70; font-size: 13px; line-height: 1.6; }
+.admin-lock { display: grid; width: 34px; height: 34px; place-items: center; border-radius: 50%; background: #e9efdf; color: #60794e; font-size: 19px; }
+.admin-login-form { max-width: 590px; margin-top: 15px; }
+.admin-login-controls { display: flex; gap: 9px; align-items: center; }
+.admin-login-controls .form-control { flex: 1; min-width: 0; }
+.admin-action-button { display: inline-flex; min-height: 40px; align-items: center; justify-content: center; padding: 0 13px; border: 1px solid #dce2d6; border-radius: 5px; background: #fff; color: #53634a; font: 600 12px "Noto Sans KR", sans-serif; cursor: pointer; }
+.admin-action-button:hover { border-color: #a9b99a; background: #f4f7f0; }
+.admin-action-button.primary { border-color: #293729; background: #293729; color: #fff; }
+.admin-action-button.primary:hover { background: #46563f; }
+.admin-action-button:disabled { cursor: wait; opacity: .6; }
+.admin-message { margin: 8px 0 0; color: #7b8376; font-size: 11px; line-height: 1.5; }
+.admin-session { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 13px; }
+.admin-session[hidden], .admin-login-form[hidden] { display: none; }
+.admin-session-label { display: flex; align-items: center; gap: 8px; color: #4f6840; font-size: 13px; font-weight: 600; }
+.admin-session-dot { width: 8px; height: 8px; border-radius: 50%; background: #85ac5b; }
+.report-admin-actions { display: flex; gap: 8px; margin-top: 7px; }
+.report-admin-actions button { min-height: 30px; padding: 0 7px; border: 1px solid #dce3d6; border-radius: 4px; background: #fff; color: #5f744e; font: 11px "Noto Sans KR", sans-serif; cursor: pointer; }
+.report-admin-actions .delete-report { color: #a23a33; border-color: #eddbd8; }
+.report-status-select { width: 100%; min-height: 36px; padding: 5px 6px; border: 1px solid #dfe5d9; border-radius: 5px; background: #fff; color: #697a55; font: 11px "Noto Sans KR", sans-serif; }
+.report-row > .report-status-select { grid-area: status; }
+.edit-report-dialog { width: min(520px, calc(100vw - 28px)); max-height: min(88vh, 760px); padding: 20px; border: 1px solid #dfe5d9; border-radius: 9px; background: #fff; color: #20251f; box-shadow: 0 20px 70px #1118; overflow-y: auto; }
+.edit-report-dialog::backdrop { background: #18201899; backdrop-filter: blur(3px); }
+.edit-report-dialog form { display: grid; gap: 2px; }
+.edit-dialog-heading { align-items: center; margin-bottom: 12px; }
+.edit-dialog-heading h2 { font-size: 21px; }
+.dialog-close { width: 38px; height: 38px; border: 1px solid #e1e6dd; border-radius: 50%; background: #fff; color: #5b6655; font-size: 23px; cursor: pointer; }
+.edit-dialog-actions { display: flex; justify-content: end; gap: 8px; margin-top: 15px; }
+.page-footer { font-size: 9px; }
+
+.trouble-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 18px 0 28px;
+}
+
+.trouble-guide-card {
+  display: grid;
+  grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr);
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #e2e7dc;
+  border-radius: 8px;
+  background: #fff;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color .18s, transform .18s, box-shadow .18s;
+}
+
+.trouble-guide-card:hover {
+  transform: translateY(-2px);
+  border-color: #bdcbb0;
+  box-shadow: 0 8px 20px #2935220c;
+}
+
+.trouble-guide-image { min-height: 150px; background: #f3f6ee; }
+.trouble-guide-image img { display: block; width: 100%; height: 100%; min-height: 150px; object-fit: cover; }
+.trouble-guide-copy { position: relative; align-self: center; padding: 18px; }
+.trouble-guide-copy .card-index { display: block; padding-right: 28px; color: #819073; font: 10px var(--mono); letter-spacing: .3px; }
+.trouble-guide-copy h2 { margin: 13px 0 7px; font-size: 19px; letter-spacing: -.5px; }
+.trouble-guide-copy p { margin: 0; color: #737b70; font-size: 13px; line-height: 1.65; }
+.trouble-guide-arrow { position: absolute; top: 15px; right: 15px; display: grid; width: 25px; height: 25px; place-items: center; border: 1px solid #e3e9de; border-radius: 50%; color: #657b54; }
+.symptoms-heading { margin: 0 0 13px; }
+.symptoms-heading h2 { margin: 7px 0 0; font-size: 19px; letter-spacing: -.4px; }
+.procedure-hero { display: grid; grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr); gap: 14px; margin: 18px 0; }
+.procedure-copy { align-self: stretch; padding: 22px; border-radius: 7px; background: #e9eddf; }
+.procedure-copy .aside-tag { padding: 0; color: #718065; font: 10px var(--mono); letter-spacing: .6px; }
+.procedure-copy h2 { margin: 13px 0 8px; font-size: 23px; line-height: 1.45; letter-spacing: -.7px; }
+.procedure-copy p { margin: 0; color: #687262; font-size: 14px; line-height: 1.75; }
+.procedure-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 15px; }
+.procedure-tags span { padding: 6px 9px; border: 1px solid #d6dfca; border-radius: 20px; color: #657455; font-size: 11px; }
+.procedure-figure { align-self: stretch; min-width: 0; margin: 0; overflow: hidden; border: 1px solid #e3e8de; border-radius: 7px; background: #f3f6ee; }
+.procedure-figure img { display: block; width: 100%; height: 100%; min-height: 220px; object-fit: cover; }
+.procedure-figure figcaption { padding: 8px 12px; background: #fff; color: #7b8377; font-size: 11px; }
+.procedure-steps { display: grid; gap: 9px; margin: 18px 0; }
+.procedure-step { display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 12px; align-items: start; padding: 16px; border: 1px solid #e6e9e2; border-radius: 6px; background: #fff; }
+.procedure-step > span { display: grid; width: 30px; height: 30px; place-items: center; border-radius: 50%; background: #edf2e7; color: #71865e; font: 11px var(--mono); }
+.procedure-step h3 { margin: 2px 0 6px; font-size: 15px; }
+.procedure-step p { margin: 0; color: #697166; font-size: 14px; line-height: 1.7; }
+.procedure-step .procedure-tip { margin-top: 7px; color: #a43731; font-weight: 600; }
+.procedure-step .key-term { color: #b42318; font-weight: 700; background: linear-gradient(transparent 68%, #fbe3e1 68%); }
+.back-to-troubleshoot { display: inline-flex; min-height: 44px; align-items: center; margin-top: 14px; color: #60774e; font-size: 13px; text-decoration: none; }
+.back-to-troubleshoot:hover { text-decoration: underline; }
+.build-volume-panel { margin: 18px 0 20px; padding: 18px; border: 1px solid #e2e7dc; border-radius: 7px; background: #fafbf8; }
+.build-volume-heading { display: flex; align-items: end; justify-content: space-between; gap: 14px; margin-bottom: 14px; }
+.build-volume-heading h2 { margin: 7px 0 3px; font-size: 23px; letter-spacing: -.4px; }
+.volume-selection { flex: 0 0 auto; padding: 8px 12px; border-radius: 20px; background: #edf3e6; color: #50683f; font-size: 15px; font-weight: 700; }
+.build-volume-grid { display: block; }
+.build-volume-card { min-width: 0; padding: 18px; border: 1px solid #e3e8de; border-radius: 6px; background: #fff; transition: border-color .18s, background .18s; }
+.build-volume-card.is-current { border-color: #8ca574; background: #f3f7ed; box-shadow: inset 0 0 0 1px #8ca574; }
+.volume-measurement { display: flex; flex-wrap: wrap; align-items: baseline; gap: 7px; margin: 0; color: #293126; font-size: 16px; line-height: 1.5; }
+.volume-measurement strong { font-size: clamp(23px, 2.5vw, 28px); letter-spacing: -.5px; white-space: nowrap; }
+.volume-measurement > span:last-child { color: #53604e; }
+.build-volume-card > a { display: inline-flex; min-height: 38px; align-items: end; margin-top: 8px; color: #60794e; font-size: 13px; text-decoration: none; }
+.build-volume-card > a:hover { text-decoration: underline; }
+
+@media (min-width: 761px) and (max-width: 1000px) {
+  .sidebar { width: 190px; }
+  .main-area { margin-left: 190px; padding-right: 22px; padding-left: 22px; }
+  .quick-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .quick-card p, .notice-panel p, .step-card p, .guide-alert p,
+  .solution-intro, .solution-step p, .storage-notice, .report-row {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .quick-card h3, .step-card h3, .report-row strong { font-size: 16px; }
+  .subpage-heading p, .field-label { font-size: 14px; }
+  .form-control { font-size: 15px; }
+  .steps-layout { grid-template-columns: minmax(0, 1fr); }
+  .guide-aside { position: static; }
+  .trouble-layout { grid-template-columns: minmax(0, 1fr); }
+  .symptom-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .report-layout { grid-template-columns: minmax(0, 1fr); }
+  .report-side { display: none; }
+  .trouble-guide-grid, .procedure-hero { grid-template-columns: minmax(0, 1fr); }
+  .procedure-figure img { height: auto; min-height: 0; }
+}
+
+@media (max-width: 760px) {
+  .brand-mark {
+    width: 34px;
+    height: 34px;
+    flex-basis: 34px;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    height: 49px;
+    padding: 8px 12px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .brand { padding: 0; }
+  .brand-copy small { display: block; font-size: 10px; margin-top: 3px; }
+
+  .nav-list {
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 30;
+    height: calc(66px + env(safe-area-inset-bottom));
+    padding: 4px 8px calc(4px + env(safe-area-inset-bottom));
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    gap: 4px;
+    overflow: visible;
+    background: #20251f;
+    border-top: 1px solid #42493e;
+  }
+
+  .sidebar .nav-link {
+    position: relative;
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 54px;
+    padding: 4px 2px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .nav-icon {
+    display: block;
+    font-size: 9px;
+    line-height: 1.2;
+  }
+
+  .nav-count {
+    position: absolute;
+    top: 2px;
+    right: calc(50% - 27px);
+    margin: 0;
+    padding: 1px 5px;
+    font-size: 9px;
+  }
+
+  .main-area { padding-bottom: calc(76px + env(safe-area-inset-bottom)); }
+  .breadcrumbs { font-size: 10px; }
+  .welcome-text, .subpage-heading p { font-size: 14px; line-height: 1.6; }
+  .panel-label { font-size: 11px; }
+  .select-wrap select { min-height: 44px; font-size: 15px; }
+  .printer-status { font-size: 12px; }
+  .section-heading h2 { font-size: 19px; }
+  .quick-card h3 { font-size: 17px; }
+  .quick-card p { font-size: 13px; line-height: 1.6; }
+  .card-link { font-size: 12px; }
+  .notice-panel strong { font-size: 13px; }
+  .notice-panel p, .empty-reports { font-size: 12px; }
+  .mini-heading h3 { font-size: 15px; }
+  .mini-heading > a { font-size: 12px; }
+  .model-note { font-size: 13px; }
+  .guide-alert p, .step-card p { font-size: 14px; line-height: 1.7; }
+  .step-card h3 { font-size: 16px; }
+  .step-card .step-tip { font-size: 12px; }
+  .guide-aside label { font-size: 14px; }
+  .guide-aside > p { font-size: 12px; }
+  .symptom-button { min-height: 58px; font-size: 13px; }
+  .solution-intro, .solution-step p { font-size: 14px; line-height: 1.65; }
+  .stop-box, .help-strip p, .help-strip a { font-size: 12px; line-height: 1.6; }
+  .storage-notice { font-size: 13px; line-height: 1.6; }
+  .field-label { font-size: 14px; }
+  .form-control { min-height: 44px; font-size: 16px; }
+  .description-field { min-height: 116px; }
+  .field-foot, .form-footnote, .privacy-note { font-size: 11px; line-height: 1.5; }
+  .submit-report { min-height: 46px; font-size: 13px; }
+  .report-row { font-size: 12px; }
+  .report-row strong { font-size: 14px; }
+  .report-row small { font-size: 12px; }
+  .report-table-head { font-size: 10px; }
+  .report-table-head { display: none; }
+  .report-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "device device" "detail detail" "status status" "timestamp timestamp";
+    gap: 8px 10px;
+    align-items: start;
+    padding: 12px;
+  }
+  .report-row .report-subject { grid-area: detail; }
+  .report-row > .report-device { grid-area: device; font-size: 13px; }
+  .report-row > .report-status { grid-area: status; justify-self: start; font-size: 13px; }
+  .report-row > .report-status-select { grid-area: status; justify-self: start; width: auto; min-width: 112px; }
+  .report-row > span.report-timestamp { display: block; grid-area: timestamp; color: #777f73; font-size: 13px; }
+  .report-row > .report-timestamp::before { content: "등록 일시 · "; color: #92988e; }
+  .report-row > .report-device { font-size: 11px; }
+  .admin-panel-content { padding: 14px; }
+  .admin-login-controls { align-items: stretch; flex-direction: column; }
+  .admin-login-controls .admin-action-button { width: 100%; }
+  .report-admin-actions { flex-wrap: wrap; }
+  .report-status-select { max-width: 130px; font-size: 11px; }
+  .edit-report-dialog { padding: 16px; }
+  .page-footer { gap: 12px; line-height: 1.5; }
+  .build-volume-panel { padding: 14px; }
+  .build-volume-heading { align-items: start; flex-direction: column; gap: 8px; }
+  .build-volume-heading h2 { font-size: 22px; }
+  .volume-selection { font-size: 14px; }
+  .build-volume-card { padding: 16px 13px; }
+  .volume-measurement { gap: 5px; font-size: 14px; }
+  .volume-measurement strong { font-size: 23px; }
+  .build-volume-card > a { font-size: 13px; }
+  .trouble-guide-grid { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .trouble-guide-card { grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); }
+  .trouble-guide-image, .trouble-guide-image img { min-height: 130px; }
+  .trouble-guide-copy { padding: 14px; }
+  .trouble-guide-copy h2 { font-size: 17px; }
+  .trouble-guide-copy p { font-size: 13px; }
+  .procedure-hero { grid-template-columns: minmax(0, 1fr); }
+  .procedure-copy { padding: 18px; }
+  .procedure-copy h2 { font-size: 21px; }
+  .procedure-figure img { height: auto; min-height: 0; }
+  .procedure-step { grid-template-columns: 32px minmax(0, 1fr); gap: 9px; padding: 13px; }
+  .procedure-step h3 { font-size: 16px; }
+  .procedure-step p { font-size: 14px; }
+}
+
+@media (max-width: 430px) {
+  .brand-mark {
+    width: 31px;
+    height: 31px;
+    flex-basis: 31px;
+  }
+
+  .brand-copy strong { font-size: 15px; }
+  .brand-copy small { display: block; font-size: 10px; }
+  .sidebar .nav-link { font-size: 12px; }
+  .nav-icon { display: block; }
+  .welcome-row h1 { font-size: 30px; }
+  .quick-card { min-height: 165px; }
+  .symptom-list { grid-template-columns: 1fr; }
+  .report-form { padding: 16px; }
+  .report-table-head, .report-row { grid-template-columns: minmax(0, 1fr) auto; }
+}

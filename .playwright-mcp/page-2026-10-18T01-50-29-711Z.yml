@@ -1,0 +1,108 @@
+- generic [ref=e2]:
+  - complementary "주요 메뉴" [ref=e3]:
+    - link "와우고등학교 홈" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "와우고등학교 교표" [ref=e6]
+      - generic [ref=e7]:
+        - strong [ref=e8]: 와우고등학교
+        - generic [ref=e9]: 3D 프린팅 안내
+    - navigation [ref=e10]:
+      - link "01 홈 대시보드" [ref=e11] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e12]: "01"
+        - text: 홈 대시보드
+      - link "02 처음 사용하기" [ref=e13] [cursor=pointer]:
+        - /url: "#guide"
+        - generic [ref=e14]: "02"
+        - text: 처음 사용하기
+      - link "03 문제 해결" [ref=e15] [cursor=pointer]:
+        - /url: "#troubleshoot"
+        - generic [ref=e16]: "03"
+        - text: 문제 해결
+      - link "04 고장 신고 0" [ref=e17] [cursor=pointer]:
+        - /url: "#reports"
+        - generic [ref=e18]: "04"
+        - text: 고장 신고
+        - generic [ref=e19]: "0"
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: 메이커스페이스
+        - generic [ref=e24]: /
+        - strong [ref=e25]: 문제 해결
+      - generic [ref=e26]:
+        - generic [ref=e27]: 2026년 10월 18일
+        - button "학생 계정" [ref=e28]: S
+    - region "어떤 문제가 생겼나요?" [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: 문제 해결 /
+            - generic [ref=e34]: Creality K1C
+          - heading "어떤 문제가 생겼나요?" [level=1] [ref=e35]
+          - paragraph [ref=e36]: 증상에 맞는 항목을 고르면, 먼저 해볼 수 있는 점검을 안내해요.
+        - generic [ref=e37]: "02"
+      - generic [ref=e38]: 모델 안내 아래 내용은 네 기종에 공통인 안전 점검입니다. 화면 메뉴나 부품 조작 방법은 모델과 학교 설정에 따라 다를 수 있어요.
+      - generic "자주 찾는 사용 안내" [ref=e39]:
+        - link "외부 스풀에서 필라멘트가 프린터로 이어지는 그림 01 / 재료 관리 필라멘트 교체 방법 외부 스풀과 화면 안내에 따라 안전하게 교체해요." [ref=e40] [cursor=pointer]:
+          - /url: "#filament"
+          - img "외부 스풀에서 필라멘트가 프린터로 이어지는 그림" [ref=e42]
+          - generic [ref=e43]:
+            - generic [ref=e44]: 01 / 재료 관리
+            - generic [ref=e45]: ↗
+            - heading "필라멘트 교체 방법" [level=2] [ref=e46]
+            - paragraph [ref=e47]: 외부 스풀과 화면 안내에 따라 안전하게 교체해요.
+        - link "베드가 식은 뒤 지정 도구로 출력물 가장자리를 분리하는 그림 02 / 출력 마무리 출력물 분리 방법 충분히 식힌 뒤 허용된 도구로 조심히 분리해요." [ref=e48] [cursor=pointer]:
+          - /url: "#removal"
+          - img "베드가 식은 뒤 지정 도구로 출력물 가장자리를 분리하는 그림" [ref=e50]
+          - generic [ref=e51]:
+            - generic [ref=e52]: 02 / 출력 마무리
+            - generic [ref=e53]: ↗
+            - heading "출력물 분리 방법" [level=2] [ref=e54]
+            - paragraph [ref=e55]: 충분히 식힌 뒤 허용된 도구로 조심히 분리해요.
+      - generic [ref=e56]:
+        - generic [ref=e57]: 증상별 안내
+        - heading "발생한 문제를 선택해 주세요" [level=2] [ref=e59]
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - button "출력물이 베드에서 들떠요" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]: ↗
+            - generic [ref=e64]: 출력물이 베드에서 들떠요
+            - generic [ref=e65]: →
+          - button "필라멘트가 공급되지 않아요" [ref=e66] [cursor=pointer]:
+            - generic [ref=e67]: ⌁
+            - generic [ref=e68]: 필라멘트가 공급되지 않아요
+            - generic [ref=e69]: →
+          - button "노즐에서 재료가 나오지 않아요" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: ⌄
+            - generic [ref=e72]: 노즐에서 재료가 나오지 않아요
+            - generic [ref=e73]: →
+          - button "출력이 멈추거나 실패해요" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75]: Ⅱ
+            - generic [ref=e76]: 출력이 멈추거나 실패해요
+            - generic [ref=e77]: →
+          - button "연결 또는 파일 전송이 안 돼요" [ref=e78] [cursor=pointer]:
+            - generic [ref=e79]: ⌘
+            - generic [ref=e80]: 연결 또는 파일 전송이 안 돼요
+            - generic [ref=e81]: →
+          - button "기타 오류 메시지가 발생했어요" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]: "!"
+            - generic [ref=e84]: 기타 오류 메시지가 발생했어요
+            - generic [ref=e85]: →
+        - generic [ref=e87]:
+          - generic [ref=e88]: ⌖
+          - heading "증상을 선택해 주세요" [level=3] [ref=e89]
+          - paragraph [ref=e90]:
+            - text: 왼쪽 목록에서 가장 가까운 증상을 선택하면
+            - text: 점검 순서가 여기에 표시됩니다.
+      - generic [ref=e91]:
+        - generic [ref=e92]: "!"
+        - paragraph [ref=e93]:
+          - strong [ref=e94]: 안내대로 해도 해결되지 않나요?
+          - text: 프린터를 더 조작하지 말고 고장 신고를 남겨주세요.
+        - link "고장 신고하기 →" [ref=e95] [cursor=pointer]:
+          - /url: "#reports"
+      - generic [ref=e96]:
+        - generic [ref=e97]: 와우고등학교 / 3D 프린팅 안내
+        - generic [ref=e98]: 분해·수리·뜨거운 부품 접촉은 담당자에게 맡겨주세요.
+  - status

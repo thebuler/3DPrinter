@@ -1,0 +1,119 @@
+- generic [ref=e2]:
+  - complementary "주요 메뉴" [ref=e3]:
+    - link "와우고등학교 홈" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img "와우고등학교 교표" [ref=e6]
+      - generic [ref=e7]:
+        - strong [ref=e8]: 와우고등학교
+        - generic [ref=e9]: 3D 프린팅 안내
+    - navigation [ref=e10]:
+      - link "01 홈 대시보드" [ref=e11] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e12]: "01"
+        - text: 홈 대시보드
+      - link "02 처음 사용하기" [ref=e13] [cursor=pointer]:
+        - /url: "#guide"
+        - generic [ref=e14]: "02"
+        - text: 처음 사용하기
+      - link "03 문제 해결" [ref=e15] [cursor=pointer]:
+        - /url: "#troubleshoot"
+        - generic [ref=e16]: "03"
+        - text: 문제 해결
+      - link "04 고장 신고 3" [ref=e17] [cursor=pointer]:
+        - /url: "#reports"
+        - generic [ref=e18]: "04"
+        - text: 고장 신고
+        - generic [ref=e19]: "3"
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: 메이커스페이스
+        - generic [ref=e24]: /
+        - strong [ref=e25]: 고장 신고
+      - generic [ref=e26]:
+        - generic [ref=e27]: 2026년 10월 18일
+        - button "학생 계정" [ref=e28]: S
+    - region "고장 신고" [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: 지원 / 문제 신고
+          - heading "고장 신고" [level=1] [ref=e34]
+          - paragraph [ref=e35]: 기기 번호와 증상을 남기면 담당자가 확인할 수 있어요.
+        - generic [ref=e36]: "03"
+      - generic [ref=e37]:
+        - generic [ref=e38]: i
+        - generic [ref=e39]: 신고는 서버에 저장돼요. 이 페이지에 접속할 수 있는 다른 PC에서도 같은 목록을 볼 수 있고, 등록 일시는 자동 기록됩니다.
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]: 새 신고
+          - generic [ref=e44]: "* 필수 항목 · 등록 일시 자동 기록"
+        - generic [ref=e45]: 기기 번호 *
+        - combobox "기기 번호 *" [ref=e46]:
+          - option "기기 번호를 선택해 주세요" [selected]
+          - option "1번 기기"
+          - option "2번 기기"
+          - option "3번 기기"
+          - option "4번 기기"
+          - option "5번 기기"
+          - option "6번 기기"
+          - option "7번 기기"
+          - option "8번 기기"
+          - option "9번 기기"
+          - option "10번 기기"
+        - generic [ref=e47]: 문제 유형 *
+        - combobox "문제 유형 *" [ref=e48]:
+          - option "문제 유형을 선택해 주세요" [selected]
+          - option "출력물이 베드에서 들떠요"
+          - option "필라멘트가 공급되지 않아요"
+          - option "노즐에서 재료가 나오지 않아요"
+          - option "출력이 멈추거나 실패해요"
+          - option "연결 또는 파일 전송이 안 돼요"
+          - option "기타 오류 메시지가 발생했어요"
+        - generic [ref=e49]: 상황 설명 *
+        - textbox "상황 설명 *" [ref=e50]:
+          - /placeholder: 언제부터 어떤 일이 있었는지 적어주세요. 오류 문구가 있다면 그대로 적어주세요.
+        - generic [ref=e51]:
+          - generic [ref=e52]: 개인정보나 비밀번호는 적지 마세요.
+          - generic [ref=e53]: 0 / 500
+        - generic [ref=e54]: 이름 또는 별명 (선택)
+        - textbox "이름 또는 별명 (선택)" [ref=e55]:
+          - /placeholder: 담당자가 부를 이름
+        - button "신고 등록하기 →" [ref=e56] [cursor=pointer]:
+          - text: 신고 등록하기
+          - generic [ref=e57]: →
+        - paragraph [ref=e58]: 긴급하거나 안전에 문제가 있으면 신고보다 담당 선생님께 먼저 알려주세요.
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - generic [ref=e62]: 신고 기록
+          - heading "신고 목록 3" [level=2] [ref=e63]
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]: 7번 기기
+            - generic [ref=e68]:
+              - strong [ref=e69]: 기타 오류 메시지가 발생했어요
+              - generic [ref=e70]: 똘똘이 · 전원이 안켜져요
+            - generic [ref=e71]: 확인 대기
+            - generic [ref=e72]: 등록 일시 · 2026. 10. 18. 02:52
+          - generic [ref=e73]:
+            - generic [ref=e74]: 3번 기기
+            - generic [ref=e75]:
+              - strong [ref=e76]: 필라멘트가 공급되지 않아요
+              - generic [ref=e77]: 익명 · 안되용
+            - generic [ref=e78]: 확인 중
+            - generic [ref=e79]: 등록 일시 · 2026. 10. 18. 02:51
+          - generic [ref=e80]:
+            - generic [ref=e81]: 1번 기기
+            - generic [ref=e82]:
+              - strong [ref=e83]: 출력물이 베드에서 들떠요
+              - generic [ref=e84]: 홍길동 · 123
+            - generic [ref=e85]: 해결 완료
+            - generic [ref=e86]: 등록 일시 · 2026. 10. 18. 02:14
+      - generic [ref=e87]:
+        - generic [ref=e88]: 와우고등학교 / 3D 프린팅 안내
+        - generic [ref=e89]: 신고 내용에 개인정보를 적지 마세요.
+      - group [ref=e90]:
+        - generic "+ 관리자 기능 담당자 전용" [ref=e91] [cursor=pointer]:
+          - text: +
+          - generic [ref=e92]: 관리자 기능
+          - generic [ref=e93]: 담당자 전용
+  - status

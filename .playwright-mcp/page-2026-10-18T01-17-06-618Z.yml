@@ -1,0 +1,105 @@
+- generic [ref=e2]:
+  - complementary "주요 메뉴" [ref=e3]:
+    - link "프린트 케어 홈" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img [ref=e6]
+      - strong [ref=e10]: 프린트케어
+    - navigation [ref=e11]:
+      - link "홈 대시보드" [ref=e12] [cursor=pointer]:
+        - /url: "#home"
+      - link "처음 사용하기" [ref=e13] [cursor=pointer]:
+        - /url: "#guide"
+      - link "문제 해결" [ref=e14] [cursor=pointer]:
+        - /url: "#troubleshoot"
+      - link "고장 신고 0" [ref=e15] [cursor=pointer]:
+        - /url: "#reports"
+        - text: 고장 신고
+        - generic [ref=e16]: "0"
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: 메이커스페이스
+        - generic [ref=e21]: /
+        - strong [ref=e22]: 전체 보기
+      - generic [ref=e23]:
+        - generic [ref=e24]: 2026년 10월 18일
+        - button "학생 계정" [ref=e25]: S
+    - region "만들기에 집중하세요. 관리는 함께할게요." [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]: 안전한 3D 프린터 사용을 위한 안내
+          - heading "만들기에 집중하세요. 관리는 함께할게요." [level=1] [ref=e31]:
+            - text: 만들기에 집중하세요.
+            - text: 관리는 함께할게요.
+          - paragraph [ref=e32]: 처음이어도 괜찮아요. 아래에서 프린터를 고르고, 필요한 안내를 찾아보세요.
+        - generic [ref=e44]:
+          - text: 만들고
+          - text: 해결해요
+      - generic [ref=e46]:
+        - generic [ref=e47]: 사용할 프린터 선택
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - combobox "사용 중인 프린터 선택" [ref=e51] [cursor=pointer]:
+              - option "Creality K2 Plus" [selected]
+              - option "Creality K2 Pro Combo"
+              - option "Creality K1C"
+              - option "Creality K1 Max"
+            - generic: ⌄
+          - generic [ref=e52]: 가이드 준비됨
+      - generic [ref=e55]:
+        - generic [ref=e56]: 빠른 메뉴
+        - heading "무엇을 도와드릴까요?" [level=2] [ref=e58]
+      - generic [ref=e59]:
+        - link "01 / 사용 안내 ↗ 처음 사용하기 출력 준비부터 마무리까지 안전하게 따라가요. 사용 순서 보기 →" [ref=e60] [cursor=pointer]:
+          - /url: "#guide"
+          - generic [ref=e61]:
+            - generic [ref=e62]: 01 / 사용 안내
+            - generic [ref=e63]: ↗
+          - heading "처음 사용하기" [level=3] [ref=e70]
+          - paragraph [ref=e71]:
+            - text: 출력 준비부터 마무리까지
+            - text: 안전하게 따라가요.
+          - generic [ref=e72]: 사용 순서 보기 →
+        - link "02 / 문제 해결 ↗ 문제 해결 증상을 고르면 안전한 점검 순서를 알려드려요. 증상 찾아보기 →" [ref=e73] [cursor=pointer]:
+          - /url: "#troubleshoot"
+          - generic [ref=e74]:
+            - generic [ref=e75]: 02 / 문제 해결
+            - generic [ref=e76]: ↗
+          - generic [ref=e81]: "?"
+          - heading "문제 해결" [level=3] [ref=e82]
+          - paragraph [ref=e83]:
+            - text: 증상을 고르면
+            - text: 안전한 점검 순서를 알려드려요.
+          - generic [ref=e84]: 증상 찾아보기 →
+        - link "03 / 고장 신고 ↗ 고장 신고 해결되지 않으면 알려주세요. 담당자에게 상황을 남겨요. 신고 작성하기 →" [ref=e85] [cursor=pointer]:
+          - /url: "#reports"
+          - generic [ref=e86]:
+            - generic [ref=e87]: 03 / 고장 신고
+            - generic [ref=e88]: ↗
+          - generic [ref=e94]: +
+          - heading "고장 신고" [level=3] [ref=e95]
+          - paragraph [ref=e96]:
+            - text: 해결되지 않으면 알려주세요.
+            - text: 담당자에게 상황을 남겨요.
+          - generic [ref=e97]: 신고 작성하기 →
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]: i
+          - generic [ref=e101]:
+            - strong [ref=e102]: 처음 이용하는 학생이라면
+            - paragraph [ref=e103]: 프린터를 만지기 전, 사용 순서와 안전 수칙을 먼저 확인해 주세요.
+          - link "사용 순서 보기" [ref=e104] [cursor=pointer]:
+            - /url: "#guide"
+            - text: →
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - generic [ref=e108]: 최근 신고
+              - heading "최근 신고" [level=3] [ref=e109]
+            - link "전체 보기 →" [ref=e110] [cursor=pointer]:
+              - /url: "#reports"
+          - generic [ref=e112]: 아직 등록된 신고가 없어요.
+      - generic [ref=e113]:
+        - generic [ref=e114]: 프린트케어 / 메이커스페이스
+        - generic [ref=e115]: 잘 모르겠다면 무리하지 말고 담당 선생님을 불러주세요.
+  - status

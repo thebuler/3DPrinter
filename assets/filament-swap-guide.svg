@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">외부 스풀 필라멘트 교체 흐름</title>
+  <desc id="desc">외부 스풀에서 필라멘트가 프린터로 이어지는 모습을 나타낸 그림</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 8 4 0 8Z" fill="#9c3340" />
+    </marker>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#e1e7da" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="760" height="360" rx="22" fill="#f3f6ee" />
+  <rect x="18" y="18" width="724" height="324" rx="16" fill="url(#grid)" opacity=".75" />
+  <path d="M246 125C293 78 323 72 373 83S429 110 472 101" fill="none" stroke="#9c3340" stroke-width="7" stroke-linecap="round" marker-end="url(#arrow)" />
+  <g transform="translate(145 174)">
+    <circle r="76" fill="#fff" stroke="#80936e" stroke-width="6" />
+    <circle r="54" fill="none" stroke="#d7e0cc" stroke-width="4" />
+    <circle r="23" fill="#dce7cf" stroke="#80936e" stroke-width="4" />
+    <path d="M-65-42c16 7 34 9 51 4M-67 0c17-9 35-10 51-2M-54 45c12-11 26-15 42-13M35-61c7 16 7 33 2 48M63 24c-13-7-27-9-40-5" fill="none" stroke="#b7c8a7" stroke-width="5" stroke-linecap="round" />
+    <path d="M-9 77v22m18-22v22m-29 0h40" fill="none" stroke="#596c4d" stroke-width="5" stroke-linecap="round" />
+  </g>
+  <g transform="translate(465 48)">
+    <path d="M30 262V45h218v217M30 74h218M60 74v188" fill="none" stroke="#5d7051" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" />
+    <path d="M112 76h68v18h-68z" fill="#c8d6ba" stroke="#728664" stroke-width="4" />
+    <path d="M137 94v37l13 13 13-13V94" fill="#fff" stroke="#728664" stroke-width="4" stroke-linejoin="round" />
+    <path d="M87 262h138" stroke="#687b5a" stroke-width="10" stroke-linecap="round" />
+    <path d="M133 260v-25l18-18 18 18v25" fill="#d8e9c3" stroke="#8da777" stroke-width="4" stroke-linejoin="round" />
+    <path d="M139 251h25m-25-9h25" stroke="#a9c58b" stroke-width="4" stroke-linecap="round" />
+    <circle cx="77" cy="72" r="7" fill="#9c3340" />
+  </g>
+  <text x="145" y="305" text-anchor="middle" fill="#354331" font-family="Arial,sans-serif" font-size="22" font-weight="700">외부 스풀</text>
+  <text x="586" y="335" text-anchor="middle" fill="#354331" font-family="Arial,sans-serif" font-size="20" font-weight="700">프린터 화면 안내에 따라 공급</text>
+</svg>

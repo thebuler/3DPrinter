@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">식힌 뒤 출력물 분리</title>
+  <desc id="desc">베드가 식은 것을 확인하고 지정된 도구로 출력물 가장자리를 조심히 분리하는 모습</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#e1e7da" stroke-width="1" />
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0 8 4 0 8Z" fill="#9c3340" />
+    </marker>
+  </defs>
+  <rect width="760" height="360" rx="22" fill="#f3f6ee" />
+  <rect x="18" y="18" width="724" height="324" rx="16" fill="url(#grid)" opacity=".75" />
+  <g transform="translate(86 61)">
+    <rect width="170" height="170" rx="18" fill="#fff" stroke="#d8e1cf" stroke-width="3" />
+    <circle cx="85" cy="78" r="42" fill="#f3f6ee" stroke="#80936e" stroke-width="5" />
+    <path d="M85 51v30l20 13" fill="none" stroke="#80936e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M54 135h62" stroke="#9c3340" stroke-width="6" stroke-linecap="round" />
+    <text x="85" y="158" text-anchor="middle" fill="#354331" font-family="Arial,sans-serif" font-size="16" font-weight="700">완전히 식었나요?</text>
+  </g>
+  <g transform="translate(300 38)">
+    <path d="M55 207h330l-22 28H78z" fill="#dce5d3" stroke="#647857" stroke-width="5" stroke-linejoin="round" />
+    <path d="M185 205v-86l42-42 42 42v86" fill="#d8e9c3" stroke="#8da777" stroke-width="5" stroke-linejoin="round" />
+    <path d="M195 178h64m-64-14h64m-64-14h64m-64-14h64" stroke="#a9c58b" stroke-width="5" stroke-linecap="round" />
+    <path d="M283 183 365 156l17 18-90 43-24-7z" fill="#fff" stroke="#9c3340" stroke-width="5" stroke-linejoin="round" />
+    <path d="m286 207 91-43" stroke="#d38b8c" stroke-width="4" stroke-linecap="round" />
+    <path d="M356 114c-20-22-45-32-73-31" fill="none" stroke="#9c3340" stroke-width="4" stroke-dasharray="8 9" marker-end="url(#arrow)" />
+    <path d="M75 241h303" stroke="#697e5c" stroke-width="7" stroke-linecap="round" />
+  </g>
+  <text x="171" y="278" text-anchor="middle" fill="#354331" font-family="Arial,sans-serif" font-size="20" font-weight="700">먼저 충분히 식히기</text>
+  <text x="490" y="328" text-anchor="middle" fill="#354331" font-family="Arial,sans-serif" font-size="20" font-weight="700">지정 도구로 가장자리부터</text>
+</svg>

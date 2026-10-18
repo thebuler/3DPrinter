@@ -1,0 +1,4 @@
+[     118ms] [INFO] [preview-bridge] v1.1.0 @ https://kca9gut1syq8zhnw.jitda.io/__preview-bridge.js:1
+[     323ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://kca9gut1syq8zhnw.jitda.io/?admin=verify#reports:0
+[   21219ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://kca9gut1syq8zhnw.jitda.io/api/reports/081f5f47-bc82-403c-be41-bf9abb47d8b6:0
+[   21323ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://kca9gut1syq8zhnw.jitda.io/api/admin/login:0

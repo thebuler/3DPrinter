@@ -1,0 +1,92 @@
+- generic [ref=e2]:
+  - complementary "주요 메뉴" [ref=e3]:
+    - link "프린트 케어 홈" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+      - img [ref=e6]
+      - strong [ref=e10]: printcare
+    - navigation [ref=e11]:
+      - link "홈 대시보드" [ref=e12] [cursor=pointer]:
+        - /url: "#home"
+      - link "처음 사용하기" [active] [ref=e13] [cursor=pointer]:
+        - /url: "#guide"
+      - link "문제 해결" [ref=e14] [cursor=pointer]:
+        - /url: "#troubleshoot"
+      - link "고장 신고 0" [ref=e15] [cursor=pointer]:
+        - /url: "#reports"
+        - text: 고장 신고
+        - generic [ref=e16]: "0"
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: MAKERSPACE
+        - generic [ref=e21]: /
+        - strong [ref=e22]: USER GUIDE
+      - generic [ref=e23]:
+        - generic [ref=e24]: 2026년 10월 18일
+        - button "학생 계정" [ref=e25]: S
+    - region "처음 사용하기" [ref=e176]:
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - text: START HERE /
+            - generic [ref=e181]: Creality K1C
+          - heading "처음 사용하기" [level=1] [ref=e182]
+          - paragraph [ref=e183]: 출력 전 확인부터 마무리까지, 한 단계씩 진행해 보세요.
+        - generic [ref=e184]: "01"
+      - generic [ref=e185]: MODEL NOTE 네 기종 모두 외부 스풀을 사용해요. 필라멘트 교체 메뉴는 모델마다 다를 수 있으니 화면 안내를 따르고, 모르는 단계는 담당자에게 확인해 주세요.
+      - generic [ref=e186]:
+        - generic [ref=e187]: "!"
+        - paragraph [ref=e188]:
+          - strong [ref=e189]: 안전 약속
+          - text: 프린터가 작동 중일 때 노즐과 베드는 매우 뜨거울 수 있어요. 출력 중인 부품이나 내부를 손으로 만지지 마세요.
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - article [ref=e192]:
+            - generic [ref=e193]: "01"
+            - generic [ref=e194]:
+              - heading "사용 허가와 프린터 확인" [level=3] [ref=e195]
+              - paragraph [ref=e196]: 담당 선생님께 사용 허가를 받고, 선택한 모델명이 실제 프린터와 일치하는지 확인하세요.
+              - paragraph [ref=e197]: TIP / 확실하지 않으면 프린터를 조작하기 전에 담당자에게 물어보세요.
+          - article [ref=e198]:
+            - generic [ref=e199]: "02"
+            - generic [ref=e200]:
+              - heading "외부 스풀과 필라멘트 확인" [level=3] [ref=e201]
+              - paragraph [ref=e202]: 네 기종 모두 외부 스풀을 사용해요. 스풀이 걸리지 않고 풀리는지 확인한 뒤, 화면의 필라멘트 교체 안내에 따라 허용된 재료를 장착하세요.
+              - paragraph [ref=e203]: TIP / 재료를 억지로 당기거나 밀지 말고, 뜨거운 노즐이나 움직이는 부품은 만지지 마세요. 메뉴가 다르면 담당자에게 확인하세요.
+          - article [ref=e204]:
+            - generic [ref=e205]: "03"
+            - generic [ref=e206]:
+              - heading "파일과 출력 설정 확인" [level=3] [ref=e207]
+              - paragraph [ref=e208]: 파일이 프린터와 호환되는지, 출력할 기기가 맞는지 다시 확인하세요. 처음 출력하는 파일은 담당자에게 검토를 요청하세요.
+              - paragraph [ref=e209]: TIP / 출력 시간과 재료 사용량을 확인하고, 허가 없이 긴 출력 작업을 시작하지 마세요.
+          - article [ref=e210]:
+            - generic [ref=e211]: "04"
+            - generic [ref=e212]:
+              - heading "출력 시작 후 상태 살피기" [level=3] [ref=e213]
+              - paragraph [ref=e214]: 출력 초반에 첫 층이 고르게 놓이는지 살펴보세요. 이상한 소리, 냄새, 연기, 오류 메시지가 있으면 바로 담당자를 부르세요.
+              - paragraph [ref=e215]: TIP / 작동 중인 프린터를 혼자 두지 말고, 움직이는 부품과 뜨거운 부분에 손대지 마세요.
+          - article [ref=e216]:
+            - generic [ref=e217]: "05"
+            - generic [ref=e218]:
+              - heading "식힌 뒤 결과물 분리" [level=3] [ref=e219]
+              - paragraph [ref=e220]: 출력이 끝나면 베드가 완전히 식은 것을 확인하세요. 학교에서 허용한 분리 도구를 사용해 결과물을 조심히 분리하고 작업 공간을 정리하세요.
+              - paragraph [ref=e221]: TIP / 뜨거운 상태에서 분리하지 말고, 도구를 몸 쪽으로 강하게 밀지 마세요. 잘 떨어지지 않으면 담당자에게 요청하세요.
+        - complementary [ref=e222]:
+          - generic [ref=e223]: BEFORE YOU PRINT
+          - heading "출력 전 체크리스트" [level=3] [ref=e224]:
+            - text: 출력 전
+            - text: 체크리스트
+          - generic [ref=e225] [cursor=pointer]:
+            - checkbox "담당 선생님께 사용 허가를 받았어요" [ref=e226]
+            - text: 담당 선생님께 사용 허가를 받았어요
+          - generic [ref=e227] [cursor=pointer]:
+            - checkbox "출력 공간에 방해물이 없어요" [ref=e228]
+            - text: 출력 공간에 방해물이 없어요
+          - generic [ref=e229] [cursor=pointer]:
+            - checkbox "파일과 프린터 모델을 확인했어요" [ref=e230]
+            - text: 파일과 프린터 모델을 확인했어요
+          - paragraph [ref=e232]: 재료나 파일이 확실하지 않으면 출력 전에 담당자에게 확인하세요.
+      - generic [ref=e233]:
+        - generic [ref=e234]: PRINTCARE / MAKERSPACE
+        - generic [ref=e235]: 모델별 화면과 메뉴 이름은 다를 수 있어요.
+  - status

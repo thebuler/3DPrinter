@@ -1,0 +1,36 @@
+/* Keep maker instructions readable while preserving the compact dashboard. */
+.sidebar .nav-link { font-size: 12px; }
+.safety-card p { font-size: 11px; }
+.welcome-text, .printer-status { font-size: 12px; }
+.printer-note, .section-aside { font-size: 11px; }
+.quick-card h3 { font-size: 17px; }
+.quick-card p { font-size: 12px; }
+.card-link, .mini-heading > a { font-size: 11px; }
+.notice-panel strong { font-size: 12px; }
+.notice-panel p { font-size: 11px; }
+.mini-heading h3 { font-size: 14px; }
+.empty-reports { font-size: 11px; }
+.subpage-heading p { font-size: 13px; }
+.guide-alert p, .step-card p, .symptom-button, .solution-intro,
+.solution-step p, .storage-notice, .field-label, .form-control,
+.report-row { font-size: 12px; }
+.step-card h3, .report-row strong { font-size: 14px; }
+.step-card .step-tip, .stop-box, .help-strip p, .help-strip a { font-size: 11px; }
+.guide-aside label { font-size: 11px; }
+.guide-aside > p, .report-side li { font-size: 10px; }
+.report-table-head { font-size: 9px; }
+.report-row small { font-size: 10px; }
+.field-foot, .form-footnote, .privacy-note { font-size: 9px; }
+.model-note { margin: -11px 0 17px; padding: 10px 12px; border-left: 2px solid #b7cc9e; background: #f0f3eb; color: #697362; font-size: 11px; line-height: 1.65; }
+.model-note span { margin-right: 8px; color: #82956d; font: 9px "DM Mono", monospace; letter-spacing: .7px; }
+
+@media (max-width: 760px) {
+  .nav-link { font-size: 10px; }
+  .welcome-text, .subpage-heading p { font-size: 12px; }
+  .quick-card h3 { font-size: 16px; }
+  .quick-card p { font-size: 11px; }
+  .card-link { font-size: 10px; }
+  .symptom-button { font-size: 11px; }
+  .form-control, .field-label { font-size: 12px; }
+  .guide-aside label { font-size: 12px; }
+}
