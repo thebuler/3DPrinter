@@ -255,7 +255,7 @@ document.querySelector("#report-list").addEventListener("change", async (event) 
   if (!control) return;
   control.disabled = true;
   try {
-    await adminRequest(`/api/reports/${encodeURIComponent(control.dataset.statusReport)}`, {
+    await adminRequest(`/api/reports?id=${encodeURIComponent(control.dataset.statusReport)}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ status: control.value }),
@@ -276,7 +276,7 @@ document.querySelector("#report-list").addEventListener("click", async (event) =
   const deleteButton = event.target.closest("[data-delete-report]");
   if (!deleteButton || !window.confirm("이 신고를 삭제할까요? 삭제한 신고는 복구할 수 없습니다.")) return;
   try {
-    await adminRequest(`/api/reports/${encodeURIComponent(deleteButton.dataset.deleteReport)}`, { method: "DELETE" });
+    await adminRequest(`/api/reports?id=${encodeURIComponent(deleteButton.dataset.deleteReport)}`, { method: "DELETE" });
     await renderReports();
     showToast("신고를 삭제했어요.");
   } catch (error) {
@@ -291,7 +291,7 @@ document.querySelector("#edit-report-form").addEventListener("submit", async (ev
   const button = form.querySelector('[type="submit"]');
   button.disabled = true;
   try {
-    await adminRequest(`/api/reports/${encodeURIComponent(editingReportId)}`, {
+    await adminRequest(`/api/reports?id=${encodeURIComponent(editingReportId)}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
